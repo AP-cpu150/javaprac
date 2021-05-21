@@ -1,0 +1,36 @@
+// 3, 6, 2, 4, and 8 only
+// var a-e for each number
+// print sequence
+
+let a = 2
+let b = 3
+let c = 6
+let d = 8
+let e = 4
+
+var calculation = ((b * c + d) / b) - e;
+
+console.log("I used the numbers with \"BODMAS\" to find the answer of 9." + calculation + ".\nThe numbers used were:\n" + a + ", " + b + ", " + c + ", " + d + "," + e + "."
+
+var userName = prompt("Enter your name: ")
+
+console.log("Hello, " + userName + ". Welcome to my repository!")
+
+var characterOne = ["Louis", "Admin", 19]
+var characterTwo = ["Martin", "Moderator", 17]
+var characterThree = ["Carlos", "Editor", 23]
+var characterFour = ["Misa", "Graphic Designer", 19]
+
+console.log("How old is each character?")
+console.log(characterOne[2]) // -> 19
+console.log(characterTwo[2]) // -> 17
+console.log(characterThree[2]) // -> 23
+console.log(characterFour[2]) // -> 19
+
+// breaker
+
+var myFavMovies = [["Alex Rider", "Andreas Prochaska"], ["Avengers: Endgame", "Russo Brothers"], ["The Matrix", "The Wachowskis"]]
+
+console.log(myFavMovies[1]) // Returns Second list in myFavMovies array.
+console.log(myFavMovies[1][0]) // Returns Second list in myFavMovies array and then the first element in it.
+
