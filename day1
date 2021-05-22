@@ -34,3 +34,23 @@ var myFavMovies = [["Alex Rider", "Andreas Prochaska"], ["Avengers: Endgame", "R
 console.log(myFavMovies[1]) // Returns Second list in myFavMovies array.
 console.log(myFavMovies[1][0]) // Returns Second list in myFavMovies array and then the first element in it.
 
+// stuco election probability calculator
+var stucoPositions = [["President", "Vice President", "Treasurer", "Corresponding Secretary", "Recording Secretary"], ["5", "3", "2", "2", "4"]]
+var presCandProbability = ["Junior", "Junior", "Sophomore", "Freshman"]
+var vpCandProbability = ["Junior", "Junior", "Sophomore"]
+var treCandProbability = ["Junior", "Sophomore"]
+var corsecCandProbability = ["Junior", "Sophomore"]
+var recsecCandProbability = ["Junior", "Junior", "Sophomore", "Freshman"]
+
+var overallProb = "";
+var gradeLevel = "";
+// if else
+if gradeLevel == "Junior";
+  then overallProb = 50;
+if gradeLevel == "Sophomore";
+  then overallProb = 25;
+if gradeLevel == "Freshman";
+  then overallProb = 15;
+ else
+  then overallProb = 0;
+     
